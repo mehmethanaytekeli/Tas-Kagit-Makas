@@ -1,4 +1,3 @@
-import random
 
 print("""Taş Kağıt Makas Oyunu
 ************************************""")
