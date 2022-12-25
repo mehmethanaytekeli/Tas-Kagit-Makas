@@ -5,24 +5,30 @@ print("""Taş Kağıt Makas Oyunu
 
 import random
 
-liste =  ['taş','kağıt','makas']
+while True :
 
-a = input("Hamle Yapın :")
+    liste =  ['taş','kağıt','makas']
 
-rastgeledeger = random.choice(liste)
+    a = input("Hamle Yapın :")
 
-print("Botun Hamlesi:{}".format(rastgeledeger))
+    rastgeledeger = random.choice(liste)
 
-if rastgeledeger == a :
-    print(("Berabere !"))
-elif rastgeledeger == "taş" and a == "kağıt" :
-    print("Kazandınız !")
-elif rastgeledeger == "kağıt" and a == "Makas" :
-    print("Kazandınız !")
-elif rastgeledeger == "makas" and a == "taş" :
-    print("Kazandınız !")
-else :
-   print("Mağlup Oldunuz !")
+    print("Botun Hamlesi:{}".format(rastgeledeger))
+
+
+
+    if rastgeledeger == a :
+         print(("Berabere !"))
+    elif rastgeledeger == "taş" and a == "kağıt" :
+         print("Kazandınız !")
+    elif rastgeledeger == "kağıt" and a == "Makas" :
+         print("Kazandınız !")
+    elif rastgeledeger == "makas" and a == "taş" :
+         print("Kazandınız !")
+    else :
+         print("Mağlup Oldunuz !")
+
+
 
 
 
